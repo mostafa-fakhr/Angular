@@ -1,0 +1,46 @@
+/* Define styles for the container */
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+/* Define styles for the registration container */
+.registration-container {
+  margin-top: 20px;
+}
+
+/* Define styles for the input fields */
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Define styles for the error messages */
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+}
+
+/* Define styles for the success messages */
+
+/*submit button styling*/
+input[type="button"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="button"]:hover {
+  background-color: #45a049;
+}
